@@ -1,0 +1,36 @@
+# ❌ Виртуальная среда
+.venv/
+env/
+venv/
+
+# ❌ Кэш и служебные файлы Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# ❌ Логи и временные файлы
+*.log
+*.tmp
+
+# ❌ Конфигурации IDE
+.idea/
+.vscode/
+
+# ❌ Jupyter checkpoints
+.ipynb_checkpoints/
+
+# ❌ OS-файлы
+.DS_Store
+Thumbs.db
+
+# ❌ Файлы моделей и данных (если они большие)
+*.pkl
+*.joblib
+*.h5
+*.csv
+
+# ❌ Секреты и токены (если есть)
+.env
+*.key
+*.pem
+token.txt
